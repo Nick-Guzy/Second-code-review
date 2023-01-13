@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  font-size: 2rem
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 52, 0);
+  color: rgb(55, 55, 55);
+  padding-left: 1rem;
+}
+
+#input-area, input {
+  font-size: 2rem;
+
+}
+
+button {
+  font-size: 2rem;
+
+}
+
