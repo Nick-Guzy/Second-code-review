@@ -2,7 +2,7 @@
 JS-practice.
 # Contributor name
 Nicholas Guzy.
-#Description
+# Description
 This is a form to see which coding language is best for you.
 # Link to website
 https://nicksfed.github.io/JS-practice/
