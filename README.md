@@ -6,7 +6,7 @@ Nicholas Guzy.
 This is a form to see which coding language is best for you.
 # Link to website
 https://nicksfed.github.io/JS-practice/
-#Technologies used:
+# Technologies used:
 *html
 *JS
 *CSS
