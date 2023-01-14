@@ -1,4 +1,5 @@
 window.onload = function(){
+  document.querySelector("form").removeAttribute("class");
   document.querySelector("form").onsubmit = function(event){
   event.preventDefault();
   let superhero1 = (document.querySelector('input:nth-of-type(1)').value);
@@ -10,20 +11,12 @@ window.onload = function(){
   let superhero7 = (document.querySelector('input:nth-of-type(7)').value);
   let superherotype;
     
-    if (superhero1 === superhero2 && superhero2 === superhero3 && superhero4 === superhero5 && superhero6 === superhero7){
-      superherotype = "aquaman";
-    // } else if (side1 === side2 || side2 === side3 || side1 === side3){
-    //   console.log('sides', side1, side2, side3)
-    //   superherotype = "spiderman";
-    // } else if (side1 !== side2 && side2 !== side3 && side1 !== side3) {
-    //   console.log('unequal sides!');
-    //   if ((side1 + side2) <= side3 || (side2 + side3) <= side1 || (side1 + side3) <= side2) {
-    //     superherotype = 'batman';        
-    //   } else {
-    //     superherotype = 'superman';
-    //   }
-      
-    }
-    document.getElementById('output-area').innerText = superherotype.toUpperCase();
+    if (superhero1 === superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 === superhero7){
+      superherotype = "css";
+    } else if (superhero1 !== superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 === superhero7){
+      superherotype = "javascript";
+    } else (superhero1 === superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 !== superhero7);{
+      superherotype = "c#";
+    }      
+    document.getElementById('output-area').innerText = superherotype.toUpperCase();}
   }
-}
