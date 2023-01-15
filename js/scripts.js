@@ -11,11 +11,11 @@ window.onload = function(){
   let superhero7 = (document.querySelector('input:nth-of-type(7)').value);
   let superherotype;
     
-    if (superhero1 === superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 === superhero7){
+    if (superhero1 === "yes" && superhero2 === "yes" && superhero3 === "yes" && superhero4 === "yes" && superhero5 === "yes" && superhero6 === "yes" && superhero7 === "yes"){
       superherotype = "css";
-    } else if (superhero1 !== superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 === superhero7){
+    } else if (superhero1 === "yes" && superhero2 === "no" && superhero3 === "yes" && superhero4 === "yes" && superhero5 === "yes" && superhero6 === "yes" && superhero7 === "yes"){
       superherotype = "javascript";
-    } else (superhero1 === superhero2 && superhero2 === superhero3 && superhero3 === superhero4 && superhero4 === superhero5 && superhero5 === superhero6 && superhero6 !== superhero7);{
+    } else {
       superherotype = "c#";
     }      
     document.getElementById('output-area').innerText = superherotype.toUpperCase();}
