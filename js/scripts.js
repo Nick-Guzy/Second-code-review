@@ -2,21 +2,21 @@ window.onload = function(){
   document.querySelector("form").removeAttribute("class");
   document.querySelector("form").onsubmit = function(event){
   event.preventDefault();
-  let superhero1 = (document.querySelector('input:nth-of-type(1)').value);
-  let superhero2 = (document.querySelector('input:nth-of-type(2)').value);
-  let superhero3 = (document.querySelector('input:nth-of-type(3)').value);
-  let superhero4 = (document.querySelector('input:nth-of-type(4)').value);
-  let superhero5 = (document.querySelector('input:nth-of-type(5)').value);
-  let superhero6 = (document.querySelector('input:nth-of-type(6)').value);
-  let superhero7 = (document.querySelector('input:nth-of-type(7)').value);
-  let superherotype;
+  let input1 = (document.querySelector('input:nth-of-type(1)').value);
+  let input2 = (document.querySelector('input:nth-of-type(2)').value);
+  let input3 = (document.querySelector('input:nth-of-type(3)').value);
+  let input4 = (document.querySelector('input:nth-of-type(4)').value);
+  let input5 = (document.querySelector('input:nth-of-type(5)').value);
+  let input6 = (document.querySelector('input:nth-of-type(6)').value);
+  let input7 = (document.querySelector('input:nth-of-type(7)').value);
+  let language;
     
-    if (superhero1 === "yes" && superhero2 === "yes" && superhero3 === "yes" && superhero4 === "yes" && superhero5 === "yes" && superhero6 === "yes" && superhero7 === "yes"){
-      superherotype = "css";
-    } else if (superhero1 === "yes" && superhero2 === "no" && superhero3 === "yes" && superhero4 === "yes" && superhero5 === "yes" && superhero6 === "yes" && superhero7 === "yes"){
-      superherotype = "javascript";
+    if (input1 === "yes" && input2 === "yes" && input3 === "yes" && input4 === "yes" && input5 === "yes" && input6 === "yes" && input7 === "yes"){
+      language = "css";
+    } else if (input1 === "yes" && input2 === "no" && input3 === "yes" && input4 === "yes" && input5 === "yes" && input6 === "yes" && input7 === "yes"){
+      language = "javascript";
     } else {
-      superherotype = "c#";
+      language = "c#";
     }      
-    document.getElementById("output-area").innerText = superherotype.toUpperCase();}
+    document.getElementById("output-area").innerText = language.toUpperCase();}
   }
