@@ -22,7 +22,12 @@ header {
   font-size: 1rem;
 }
 
+#output-area {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+}
+
 button {
   font-size: 1.5rem;
 }
-

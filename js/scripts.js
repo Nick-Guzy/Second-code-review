@@ -18,5 +18,5 @@ window.onload = function(){
     } else {
       superherotype = "c#";
     }      
-    document.getElementById('output-area').innerText = superherotype.toUpperCase();}
+    document.getElementById("output-area").innerText = superherotype.toUpperCase();}
   }
