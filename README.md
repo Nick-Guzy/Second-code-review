@@ -7,9 +7,9 @@ This is a form to see which coding language is best for you.
 # Link to website
 https://nicksfed.github.io/JS-practice/
 # Technologies used:
-*html
-*JS
-*CSS
+* html
+* JS
+* CSS
 # Setup steps
 Clone down the file and then open the index file.
 # Known bugs
